@@ -1,0 +1,11 @@
+:root{--paper:#F1EFEA;--ink:#1C1815;--muted:#5A554E;--rule:#DDD9D0}
+@media (prefers-color-scheme:dark){:root{--paper:#1C1815;--ink:#F1EFEA;--muted:#B8B2A8;--rule:#3A352F}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.7 -apple-system,"PingFang SC","Noto Sans SC",sans-serif}
+main{max-width:640px;margin:0 auto;padding:48px 16px 64px}
+h1{font-size:28px;margin:0 0 4px}
+h2{font-size:18px;margin:32px 0 8px}
+p,li{color:var(--ink)}
+.sub{color:var(--muted);margin:0 0 32px}
+a{color:var(--ink)}
+footer{margin-top:48px;padding-top:16px;border-top:1px solid var(--rule);color:var(--muted);font-size:14px}
